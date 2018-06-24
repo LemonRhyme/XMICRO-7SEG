@@ -1,0 +1,77 @@
+Partlist
+
+Exported from XMICRO-7SEG.sch at 1/14/2018 10:08:14 PM
+
+EAGLE Version 6.3.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part     Value              Device             Package      Library      Sheet
+
+C1       0.1uF              C-US025-024X044    C025-024X044 resistor     1
+C2       0.1uF              C-US025-024X044    C025-024X044 resistor     1
+C3       0.1uF              C-US025-024X044    C025-024X044 resistor     1
+C4       0.1uF              C-US025-024X044    C025-024X044 resistor     1
+C5       0.1uF              C-US025-024X044    C025-024X044 resistor     1
+C6       0.1uF              C-US025-024X044    C025-024X044 resistor     1
+C7       0.1uF              C-US025-024X044    C025-024X044 resistor     1
+C8       0.1uF              C-US025-024X044    C025-024X044 resistor     1
+C9       0.1uF              C-US025-024X044    C025-024X044 resistor     1
+C10      0.1uF              C-US025-024X044    C025-024X044 resistor     1
+C11      0.1uF              C-US025-024X044    C025-024X044 resistor     1
+C12      220uF 10V          CPOL-US-10-5       C-10-5       Custom       1
+D1                          7SEG-CA            7SEG-13      special      1
+D2                          7SEG-CA            7SEG-13      special      1
+D3                          7SEG-CA            7SEG-13      special      1
+D4                          7SEG-CA            7SEG-13      special      1
+D5       LB10               LB10               LB10         led          1
+JP1      PINHD1X3THRU       PINHD1X3THRU       1X03         Custom       1
+JP2      PINHD1X3THRU       PINHD1X3THRU       1X03         Custom       1
+PC1      XMICRO-BUS-EDGE62M XMICRO-BUS-EDGE62M EDGE62M      Custom       1
+R1                          R-US_0207/10       0207/10      resistor     1
+R2                          R-US_0207/10       0207/10      resistor     1
+R3                          R-US_0207/10       0207/10      resistor     1
+R4                          R-US_0207/10       0207/10      resistor     1
+R5                          R-US_0207/10       0207/10      resistor     1
+R6                          R-US_0207/10       0207/10      resistor     1
+R7                          R-US_0207/10       0207/10      resistor     1
+R8                          R-US_0207/10       0207/10      resistor     1
+R9                          R-US_0207/10       0207/10      resistor     1
+R10                         R-US_0207/10       0207/10      resistor     1
+R11                         R-US_0207/10       0207/10      resistor     1
+R12                         R-US_0207/10       0207/10      resistor     1
+R13                         R-US_0207/10       0207/10      resistor     1
+R14                         R-US_0207/10       0207/10      resistor     1
+R15                         R-US_0207/10       0207/10      resistor     1
+R16                         R-US_0207/10       0207/10      resistor     1
+R17                         R-US_0207/10       0207/10      resistor     1
+R18                         R-US_0207/10       0207/10      resistor     1
+R19                         R-US_0207/10       0207/10      resistor     1
+R20                         R-US_0207/10       0207/10      resistor     1
+R21                         R-US_0207/10       0207/10      resistor     1
+R22                         R-US_0207/10       0207/10      resistor     1
+R23                         R-US_0207/10       0207/10      resistor     1
+R24                         R-US_0207/10       0207/10      resistor     1
+R25                         R-US_0207/10       0207/10      resistor     1
+R26                         R-US_0207/10       0207/10      resistor     1
+R27                         R-US_0207/10       0207/10      resistor     1
+R28                         R-US_0207/10       0207/10      resistor     1
+R29                         R-US_0207/10       0207/10      resistor     1
+R30                         R-US_0207/10       0207/10      resistor     1
+R31                         R-US_0207/10       0207/10      resistor     1
+R32                         R-US_0207/10       0207/10      resistor     1
+R33                         R-US_0207/10       0207/10      resistor     1
+R34                         R-US_0207/10       0207/10      resistor     1
+RN1                         G08R               SIL9         resistor-sil 1
+RN2      10k                G08R               SIL9         resistor-sil 1
+U1       GAL16V8B           16V8               DIL20        pal          1
+U2       GAL16V8B           16V8               DIL20        pal          1
+U3       GAL16V8B           16V8               DIL20        pal          1
+U4       GAL16V8B           16V8               DIL20        pal          1
+U5       74273              74273N             DIL20        74xx-us      1
+U6       74273              74273N             DIL20        74xx-us      1
+U7       74138              74LS138N           DIL16        74xx-us      1
+U8       74138              74LS138N           DIL16        74xx-us      1
+U9       74244              74LS244N           DIL20        74xx-us      1
+U10      74244              74LS244N           DIL20        74xx-us      1
+U11      74245              74LS245N           DIL20        74xx-us      1
