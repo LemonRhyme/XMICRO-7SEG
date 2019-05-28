@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -7497,24 +7497,6 @@ Metric Code Size 5664</description>
 <sheets>
 <sheet>
 <plain>
-<wire x1="180.34" y1="233.68" x2="177.8" y2="231.14" width="0.1524" layer="95"/>
-<wire x1="177.8" y1="231.14" x2="165.1" y2="231.14" width="0.1524" layer="95"/>
-<wire x1="165.1" y1="231.14" x2="165.1" y2="236.22" width="0.1524" layer="95"/>
-<wire x1="165.1" y1="236.22" x2="177.8" y2="236.22" width="0.1524" layer="95"/>
-<wire x1="177.8" y1="236.22" x2="180.34" y2="233.68" width="0.1524" layer="95"/>
-<text x="177.8" y="233.68" size="1.778" layer="95" align="center-right">DATA BUS</text>
-<wire x1="246.38" y1="233.68" x2="243.84" y2="231.14" width="0.1524" layer="95"/>
-<wire x1="243.84" y1="231.14" x2="231.14" y2="231.14" width="0.1524" layer="95"/>
-<wire x1="231.14" y1="231.14" x2="231.14" y2="236.22" width="0.1524" layer="95"/>
-<wire x1="231.14" y1="236.22" x2="243.84" y2="236.22" width="0.1524" layer="95"/>
-<wire x1="243.84" y1="236.22" x2="246.38" y2="233.68" width="0.1524" layer="95"/>
-<text x="243.84" y="233.68" size="1.778" layer="95" align="center-right">DATA BUS</text>
-<wire x1="200.66" y1="71.12" x2="198.12" y2="68.58" width="0.1524" layer="95"/>
-<wire x1="198.12" y1="68.58" x2="185.42" y2="68.58" width="0.1524" layer="95"/>
-<wire x1="185.42" y1="68.58" x2="185.42" y2="73.66" width="0.1524" layer="95"/>
-<wire x1="185.42" y1="73.66" x2="198.12" y2="73.66" width="0.1524" layer="95"/>
-<wire x1="198.12" y1="73.66" x2="200.66" y2="71.12" width="0.1524" layer="95"/>
-<text x="198.12" y="71.12" size="1.778" layer="95" align="center-right">DATA BUS</text>
 <frame x1="0" y1="0" x2="406.4" y2="254" columns="8" rows="5" layer="94"/>
 <text x="6.35" y="30.48" size="2.54" layer="94" font="vector">Display Card</text>
 <text x="6.35" y="25.4" size="2.1844" layer="94" font="vector" rot="MR180">LED display card featuring two hexadecimal
@@ -7806,19 +7788,17 @@ bytes and one bar graph</text>
 <busses>
 <bus name="D[0..7]">
 <segment>
-<wire x1="193.04" y1="233.68" x2="180.34" y2="233.68" width="0.762" layer="92"/>
-<wire x1="193.04" y1="233.68" x2="195.58" y2="231.14" width="0.762" layer="92"/>
 <wire x1="195.58" y1="231.14" x2="195.58" y2="203.2" width="0.762" layer="92"/>
-</segment>
-<segment>
-<wire x1="259.08" y1="233.68" x2="246.38" y2="233.68" width="0.762" layer="92"/>
-<wire x1="259.08" y1="233.68" x2="261.62" y2="231.14" width="0.762" layer="92"/>
-<wire x1="261.62" y1="231.14" x2="261.62" y2="30.48" width="0.762" layer="92"/>
-</segment>
-<segment>
-<wire x1="228.6" y1="71.12" x2="200.66" y2="71.12" width="0.762" layer="92"/>
-<wire x1="228.6" y1="71.12" x2="231.14" y2="68.58" width="0.762" layer="92"/>
+<wire x1="195.58" y1="231.14" x2="198.12" y2="233.68" width="0.762" layer="92"/>
 <wire x1="231.14" y1="68.58" x2="231.14" y2="30.48" width="0.762" layer="92"/>
+<wire x1="231.14" y1="68.58" x2="233.68" y2="71.12" width="0.762" layer="92"/>
+<wire x1="259.08" y1="233.68" x2="261.62" y2="231.14" width="0.762" layer="92"/>
+<wire x1="261.62" y1="231.14" x2="261.62" y2="73.66" width="0.762" layer="92"/>
+<wire x1="261.62" y1="73.66" x2="261.62" y2="30.48" width="0.762" layer="92"/>
+<wire x1="233.68" y1="71.12" x2="259.08" y2="71.12" width="0.762" layer="92"/>
+<wire x1="259.08" y1="71.12" x2="261.62" y2="73.66" width="0.762" layer="92"/>
+<wire x1="198.12" y1="233.68" x2="259.08" y2="233.68" width="0.762" layer="92"/>
+<label x="198.12" y="234.95" size="1.778" layer="95"/>
 </segment>
 </bus>
 </busses>
@@ -8189,7 +8169,7 @@ bytes and one bar graph</text>
 <segment>
 <pinref part="U10" gate="A" pin="Y4"/>
 <wire x1="40.64" y1="187.96" x2="30.48" y2="187.96" width="0.1524" layer="91"/>
-<label x="30.48" y="187.96" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="26.924" y="187.96" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="A1" class="0">
@@ -8206,7 +8186,7 @@ bytes and one bar graph</text>
 <segment>
 <pinref part="U10" gate="B" pin="Y2"/>
 <wire x1="40.64" y1="215.9" x2="30.48" y2="215.9" width="0.1524" layer="91"/>
-<label x="30.48" y="215.9" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="26.924" y="215.9" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -8223,7 +8203,7 @@ bytes and one bar graph</text>
 <segment>
 <pinref part="U10" gate="A" pin="Y3"/>
 <wire x1="40.64" y1="190.5" x2="30.48" y2="190.5" width="0.1524" layer="91"/>
-<label x="30.48" y="190.5" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="26.924" y="190.5" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -8476,7 +8456,7 @@ bytes and one bar graph</text>
 <segment>
 <pinref part="U10" gate="A" pin="Y2"/>
 <wire x1="40.64" y1="193.04" x2="30.48" y2="193.04" width="0.1524" layer="91"/>
-<label x="30.48" y="193.04" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="26.67" y="193.04" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="!WR" class="0">
@@ -8488,7 +8468,7 @@ bytes and one bar graph</text>
 <segment>
 <pinref part="U10" gate="B" pin="Y3"/>
 <wire x1="40.64" y1="213.36" x2="30.48" y2="213.36" width="0.1524" layer="91"/>
-<label x="30.48" y="213.36" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="26.162" y="213.36" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -9144,14 +9124,14 @@ bytes and one bar graph</text>
 <segment>
 <pinref part="U10" gate="A" pin="Y1"/>
 <wire x1="40.64" y1="195.58" x2="30.48" y2="195.58" width="0.1524" layer="91"/>
-<label x="30.48" y="195.58" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="25.654" y="195.58" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="!CSX0" class="0">
 <segment>
 <pinref part="U8" gate="A" pin="Y0"/>
 <wire x1="154.94" y1="101.6" x2="170.18" y2="101.6" width="0.1524" layer="91"/>
-<label x="170.18" y="101.6" size="1.016" layer="95" xref="yes"/>
+<label x="175.768" y="101.6" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="CLK"/>
@@ -9168,7 +9148,7 @@ bytes and one bar graph</text>
 <segment>
 <pinref part="U8" gate="A" pin="Y1"/>
 <wire x1="154.94" y1="99.06" x2="170.18" y2="99.06" width="0.1524" layer="91"/>
-<label x="170.18" y="99.06" size="1.016" layer="95" xref="yes"/>
+<label x="175.768" y="99.06" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="CLK"/>
@@ -9185,7 +9165,7 @@ bytes and one bar graph</text>
 <segment>
 <pinref part="U8" gate="A" pin="Y2"/>
 <wire x1="154.94" y1="96.52" x2="170.18" y2="96.52" width="0.1524" layer="91"/>
-<label x="170.18" y="96.52" size="1.016" layer="95" xref="yes"/>
+<label x="175.768" y="96.52" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U5" gate="A" pin="CLK"/>
@@ -9197,7 +9177,7 @@ bytes and one bar graph</text>
 <segment>
 <pinref part="U8" gate="A" pin="Y3"/>
 <wire x1="154.94" y1="93.98" x2="170.18" y2="93.98" width="0.1524" layer="91"/>
-<label x="170.18" y="93.98" size="1.016" layer="95" xref="yes"/>
+<label x="175.768" y="93.98" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U6" gate="A" pin="CLK"/>
@@ -9261,7 +9241,7 @@ bytes and one bar graph</text>
 <segment>
 <pinref part="U6" gate="A" pin="Q8"/>
 <wire x1="304.8" y1="66.04" x2="317.5" y2="66.04" width="0.1524" layer="91"/>
-<label x="317.5" y="66.04" size="1.016" layer="95" xref="yes"/>
+<label x="322.326" y="66.04" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="!OE0" class="0">
@@ -9278,7 +9258,7 @@ bytes and one bar graph</text>
 <segment>
 <pinref part="U6" gate="A" pin="Q1"/>
 <wire x1="304.8" y1="83.82" x2="317.5" y2="83.82" width="0.1524" layer="91"/>
-<label x="317.5" y="83.82" size="1.016" layer="95" xref="yes"/>
+<label x="322.326" y="83.82" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -9472,7 +9452,7 @@ bytes and one bar graph</text>
 <segment>
 <pinref part="U10" gate="B" pin="Y1"/>
 <wire x1="40.64" y1="218.44" x2="30.48" y2="218.44" width="0.1524" layer="91"/>
-<label x="30.48" y="218.44" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="26.924" y="218.44" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$85" class="0">
@@ -9491,7 +9471,7 @@ bytes and one bar graph</text>
 <segment>
 <pinref part="U10" gate="B" pin="Y4"/>
 <wire x1="40.64" y1="210.82" x2="30.48" y2="210.82" width="0.1524" layer="91"/>
-<label x="30.48" y="210.82" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="25.654" y="210.82" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U5" gate="A" pin="CLR"/>
