@@ -1,0 +1,19 @@
+/*
+Pin 1 = CLK
+Pin 11 = !OE
+*/
+
+Device  g16v8ms ;
+
+PIN [12..18]=[S0..6];
+PIN [2..5]=[E0..3];
+
+FIELD inputs = [E0..3] ;
+FIELD outputs = [S0..6] ;
+
+TABLE inputs => outputs.d {
+	0=>C0;    1=>F9;    2=>A4;    3=>B0;
+	4=>99;    5=>92;    6=>82;    7=>F8;
+	8=>80;    9=>90;    A=>88;    B=>83;
+	C=>C6;    D=>A1;    E=>86;    F=>8E;
+}
